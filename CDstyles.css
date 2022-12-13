@@ -1,0 +1,132 @@
+/* CSS Document for Stylesheet Tutorial Template*/
+
+h1 {font-family: helvetica;}
+h2 {font-family: helvetica;
+color:white;}
+
+body {background-color: #31aee2}
+
+section{padding-left:5px;
+padding-right:5px;}
+
+ul {list-style-type: none;
+margi: 0;
+padding: 0;
+overflow: hidden;
+background-color:#31aee2}
+
+li {float: left;}
+
+li a {display:inline-block;
+color:white;
+text-align:center;
+padding: 14px 16px
+text-decoration: none;}
+
+li a:hover{background-color:#31aee2;}
+
+li.current{background-color:blue;}
+
+hr{width:80%;}
+
+
+body nav{
+	width: 100%
+	font-family: helvetica;
+}
+
+.topvav a{
+	padding-left: 5px;
+	padding-right: 5px;
+	text dcoration: blink;
+}
+
+.topnav a:hover{
+	background-color: blue;
+	color: #ffffff;
+}
+
+.topnav .active{
+	background-color: #e8555e;
+}
+
+section{
+	background: #ffffff;
+}
+
+.photograph{
+	width: 90%;
+}
+
+audio {width: 100%;
+}
+
+#slideshow{
+	overflow: hidden;
+	height: 510px;
+	width: 728px;
+	margin: 0 auto;
+}
+
+.slide-wrapper{
+	width: 2912px;
+	-webkit-animation: slide 18s ease infinite;
+}
+
+.slide{
+	float: left;
+	height: 510px;
+	width: 728px;
+}
+
+@-webkit-keyframes slide{
+	20%{margin-left: 0px;}
+	30%{margin-left: -728px;}
+	50%{margin-left: -728px;}
+	60%{margin-left: -1456px;}
+	70%{margin-left: -1456px;}
+	80%{margin-left: -2184px;}
+	90%{margin-left: -2184px;}
+}
+
+.video_container{
+	postion: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+iframe, .video_container object{
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body footer{
+	width: 100%;
+	font-style: italic;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1100px){
+	#slideshow {display: none;}
+}
+
+@media only screen and (max-width: 600px){
+	body{width: 90%;
+	margin-left: 5%;
+	margin-right: 5%}
+	.topnav{width: 100%;
+	overflow: hidden;}
+	a{width: 100%;
+	display: block;
+	text-align: center;
+	background-color: #e8555e;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #323232;}
+}

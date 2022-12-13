@@ -1,0 +1,16 @@
+*/ CSS Document for Multimedia Site */
+
+body{backround-color: #edb9a5; 
+color= #31aee2;}
+
+table{border-collapse;
+width: 70%;
+margin: auto;}
+
+td, th{ boarder: 1px #31aee2;
+padding: 8px;}
+
+tr:nth-child(even){background-color:#edb9a5;}
+
+caption{font-weight: bold;
+font-size:1.5em;} 
